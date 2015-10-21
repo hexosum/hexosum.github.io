@@ -4,7 +4,7 @@
   <subtitle><![CDATA[hexo de blog]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://hexo.sumisada.com/"/>
-  <updated>2015-10-21T09:41:54.586Z</updated>
+  <updated>2015-10-21T09:42:48.379Z</updated>
   <id>http://hexo.sumisada.com/</id>
   
   <author>
@@ -19,10 +19,11 @@
     <link href="http://hexo.sumisada.com/2015/10/21/colon-error/"/>
     <id>http://hexo.sumisada.com/2015/10/21/colon-error/</id>
     <published>2015-10-21T09:38:55.000Z</published>
-    <updated>2015-10-21T09:41:54.586Z</updated>
+    <updated>2015-10-21T09:42:48.379Z</updated>
     <content type="html"><![CDATA[<p>タイトルにコロン（：）を使ったら、generationでエラーが大量にでてびっくりした。<br><a id="more"></a></p>
 <h2 id="言われてみればそのとおり！">言われてみればそのとおり！</h2><p>コロン（：）をセパレータにしているので、タイトルに:使うとエラーが出るのは当たりまえだよね。</p>
 <p>クォートすればよいか・・・</p>
+<p>記事のタイトルがバラバラなのは、そういう理由です。</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>タイトルにコロン（：）を使ったら、generationでエラーが大量にでてびっくりした。<br>]]>
