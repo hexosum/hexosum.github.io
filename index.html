@@ -92,10 +92,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <a id="more"></a>
-<h2 id="はじめに">はじめに</h2><p>moreを使うとクリックすると表示位置が移動するのが気に入らないので、<br>front matter excrptをテストしてみます。</p>
-<h3 id="more問題">more問題</h3><p>moreを入れる場所によって動作したりしなかったりする。</p>
-
+        <p>ここになにかないとmoreが効かないのはなぜ？<br>
+        
+          <p class="article-more-link">
+            <a href="/2015/10/21/excrpt/#more">記事を読む</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
@@ -139,16 +141,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>ようやく枠がそれっぽくなってきた。<br><a id="more"></a></p>
-<h3 id="以外と手が書かる">以外と手が書かる</h3><p>WordPressなら、数時間あればブログの形になるんですけどねぇ。</p>
-<p>Octopressは半日あればなんとかなったんですけどねぇ。。</p>
-<p>Hugoも半日でなんとかなったんですけどねぇ。。。</p>
-<p>Hexoくんは、１日以上かっかってる。。。。</p>
-<p>始めるまでに手がかかる（と思う）</p>
-<p>下地が揃ったので、これからプラグインとか機能を考える感じ・・・</p>
-<p>某ブログによると3分で始められるはずだったんだけど、</p>
-<p>そうそううまい話はありません。</p>
-
+        <p>ようやく枠がそれっぽくなってきた。<br>
+        
+          <p class="article-more-link">
+            <a href="/2015/10/21/stilltesting/#more">記事を読む</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
@@ -192,9 +190,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>&lt;– more –&gt;を—の直後にいれてみた。<br><a id="more"></a></p>
-<h2 id="出たり・出なかったりってどういうことよ？">出たり・出なかったりってどういうことよ？</h2><p>—の直後の行だとダメっぽい？？？</p>
-
+        <p>&lt;– more –&gt;を—の直後にいれてみた。<br>
+        
+          <p class="article-more-link">
+            <a href="/2015/10/21/moremore/#more">記事を読む</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
@@ -239,11 +240,11 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>固定ページを作りたかったんですけど、hexo new page xxxxでつくったら</p>
-<a id="more"></a>
-<h2 id="固定ページを作ると自動でどこかに表示するのかと思った">固定ページを作ると自動でどこかに表示するのかと思った</h2><p>全然でてこなくて驚いた。</p>
-<p>ディレクトリはできてるんですけどね、手作業で追加しないとダメなんだね。</p>
-<p>面倒くさいぞ。</p>
-
+        
+          <p class="article-more-link">
+            <a href="/2015/10/21/static-pages/#more">記事を読む</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
@@ -288,11 +289,11 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>HEXOのウィジェットを日本で表示するように変更すると、エラーが出るようになった件。</p>
-<a id="more"></a>
-<h2 id="site-posts-lengthが・・・">site.posts.lengthが・・・</h2><p>「10 2015年」と表示されるのは見た目に気に入らないため、date.formatを使って年月表示に変えたところ、<br>site.posts.lengthがそのまま表示されてしまいました。</p>
-<h3 id="アーカイブの表示を年月表示に変更">アーカイブの表示を年月表示に変更</h3><h5 id="ファイル名：landscape/layout/_widget/archive-ejs">ファイル名：landscape/layout/_widget/archive.ejs</h5><p>詳しいことは調べていませんが、site.posts.lengthのリターンコードの問題でしょうか。<br>記事ゼロということはありませんから、消したら表示するようになりました。</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#60;% if (site.posts.length)&#123; %&#62;&#10;&#60;div class=&#34;widget-wrap&#34;&#62;&#10;&#60;h3 class=&#34;widget-title&#34;&#62;&#12450;&#12540;&#12459;&#12452;&#12502;&#60;/h3&#62;&#10;&#60;div class=&#34;widget&#34;&#62;&#10;&#60;%- list_archives(&#123;format: &#39;YYYY&#24180;MM&#26376;&#39;&#125;) %&#62;&#10;&#60;/div&#62;&#10;&#60;/div&#62;&#10;&#60;% &#125; %&#62;</span><br></pre></td></tr></table></figure>
-
+        
+          <p class="article-more-link">
+            <a href="/2015/10/21/archive-error/#more">記事を読む</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
@@ -337,14 +338,11 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>index.htmlの下に表示されるCommentsとShareを日本語にしようと・・・・</p>
-<a id="more"></a>
-<p>ハードコーディングでやんの・・・<br><!-- more --></p>
-<p>わかりにくい・・・</p>
-<p>いやぁ面倒くさい。</p>
-<h3 id="DISQUSに変更したら">DISQUSに変更したら</h3><p>また表示が変わってしまったよ！</p>
-<p>Disqusを日本語にしてるけど、コメント数は0 Commentsになっちゃいますわ。。。</p>
-<p>コメントと表示されたり、0 Commentsと表示されたりいけていない。</p>
-
+        
+          <p class="article-more-link">
+            <a href="/2015/10/21/share-comments/#more">記事を読む</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
@@ -388,11 +386,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>ウィジェットを日本語にしようとしてます。<br><a id="more"></a></p>
-<h2 id="ウィジェットのタイトルと日本語にしようとしたらハードコーディングだった件">ウィジェットのタイトルと日本語にしようとしたらハードコーディングだった件</h2><p>theme/_comfig.yamlあたりを変更すると日本語にできるのかなと思っていましたが、<br>ハードコーディングでした。</p>
-<p>書き換えは面倒くさい。。。</p>
-<h2 id="日本語にしたら・・・">日本語にしたら・・・</h2><p>generateし直したら、アーカイブでコードがそのまま表示されるようになっちゃいました。</p>
-
+        <p>ウィジェットを日本語にしようとしてます。<br>
+        
+          <p class="article-more-link">
+            <a href="/2015/10/21/widget-language/#more">記事を読む</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
@@ -436,11 +435,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>トップのナビゲーション・メニュー（Home, Archives）を日本語にしたい。<br><a id="more"></a></p>
-<h2 id="ハードコーディングだったり、_Config-yamlだったり面倒くさいぞ！">ハードコーディングだったり、_Config.yamlだったり面倒くさいぞ！</h2><p>トップメニューは、theme/_config.yamlで変更するんですって・・・</p>
-<h5 id="theme/_config-yaml">theme/_config.yaml</h5><p>ここを変更するのかぁ・・・<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">menu</span>:</span><br><span class="line">  ホーム: /</span><br><span class="line">  アーカイブ: /archives</span><br></pre></td></tr></table></figure></p>
-<p>いやいや面倒くさいぞ！</p>
-
+        <p>トップのナビゲーション・メニュー（Home, Archives）を日本語にしたい。<br>
+        
+          <p class="article-more-link">
+            <a href="/2015/10/21/title-menu/#more">記事を読む</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
@@ -485,12 +485,11 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>“Read more”のままでもいいんですけど、「記事を読む」か「続きを読む」の方が良いので、<br>変更するのはtheme/_config.yamlを変更なのね。</p>
-<a id="more"></a>
-<h2 id="“Read_more”_-&gt;_“記事を読む”にする">“Read more” -&gt; “記事を読む”にする</h2><p>なんで、テーマで設定するんだよぉ。</p>
-<figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">excerpt_link</span>: <span class="string">記事を読む</span></span><br></pre></td></tr></table></figure>
-<p>わかりにくい・・・</p>
-<p>テーマ変える都度変更するのは面倒くさい。</p>
-
+        
+          <p class="article-more-link">
+            <a href="/2015/10/19/readmore/#more">記事を読む</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
