@@ -31,8 +31,9 @@
 <p>そうそううまい話はありません。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>ようやく枠がそれっぽくなってきた。<br>]]>
-    
+    <![CDATA[<p>ようやく枠がそれっぽくなってきた。<br><a id="more"></a></p>
+<h3 id="以外と手が書かる">以外と手が書かる</h3><p>WordPressなら、数時間あればブログの形になるんですけどねぇ。</p>
+<p>Octopressは半日あればなんと]]>
     </summary>
     
       <category term="TEST" scheme="http://hexo.sumisada.com/tags/TEST/"/>
@@ -51,8 +52,9 @@
 <h2 id="出たり・出なかったりってどういうことよ？">出たり・出なかったりってどういうことよ？</h2><p>—の直後の行だとダメっぽい？？？</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>&lt;– more –&gt;を—の直後にいれてみた。<br>]]>
-    
+    <![CDATA[<p>&lt;– more –&gt;を—の直後にいれてみた。<br><a id="more"></a></p>
+<h2 id="出たり・出なかったりってどういうことよ？">出たり・出なかったりってどういうことよ？</h2><p>—の直後の行だとダメっぽい？？？</p>
+]]>
     </summary>
     
       <category term="TEST" scheme="http://hexo.sumisada.com/tags/TEST/"/>
@@ -74,8 +76,9 @@
 <p>面倒くさいぞ。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>固定ページを作りたかったんですけど、hexo new page xxxxでつくったら</p>]]>
-    
+    <![CDATA[<p>固定ページを作りたかったんですけど、hexo new page xxxxでつくったら</p>
+<a id="more"></a>
+<h2 id="固定ページを作ると自動でどこかに表示するのかと思った">固定ページを作ると自動でどこかに表示するのかと思った</h2><p>全然]]>
     </summary>
     
       <category term="TEST" scheme="http://hexo.sumisada.com/tags/TEST/"/>
@@ -97,8 +100,9 @@
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#60;% if (site.posts.length)&#123; %&#62;&#10;&#60;div class=&#34;widget-wrap&#34;&#62;&#10;&#60;h3 class=&#34;widget-title&#34;&#62;&#12450;&#12540;&#12459;&#12452;&#12502;&#60;/h3&#62;&#10;&#60;div class=&#34;widget&#34;&#62;&#10;&#60;%- list_archives(&#123;format: &#39;YYYY&#24180;MM&#26376;&#39;&#125;) %&#62;&#10;&#60;/div&#62;&#10;&#60;/div&#62;&#10;&#60;% &#125; %&#62;</span><br></pre></td></tr></table></figure>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>HEXOのウィジェットを日本で表示するように変更すると、エラーが出るようになった件。</p>]]>
-    
+    <![CDATA[<p>HEXOのウィジェットを日本で表示するように変更すると、エラーが出るようになった件。</p>
+<a id="more"></a>
+<h2 id="site-posts-lengthが・・・">site.posts.lengthが・・・</h2><p>「10 2015年」と表]]>
     </summary>
     
       <category term="TEST" scheme="http://hexo.sumisada.com/tags/TEST/"/>
@@ -123,8 +127,11 @@
 <p>コメントと表示されたり、0 Commentsと表示されたりいけていない。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>index.htmlの下に表示されるCommentsとShareを日本語にしようと・・・・</p>]]>
-    
+    <![CDATA[<p>index.htmlの下に表示されるCommentsとShareを日本語にしようと・・・・</p>
+<a id="more"></a>
+<p>ハードコーディングでやんの・・・<br><!-- more --></p>
+<p>わかりにくい・・・</p>
+<p>いやぁ面倒くさい]]>
     </summary>
     
       <category term="TEST" scheme="http://hexo.sumisada.com/tags/TEST/"/>
@@ -145,8 +152,8 @@
 <h2 id="日本語にしたら・・・">日本語にしたら・・・</h2><p>generateし直したら、アーカイブでコードがそのまま表示されるようになっちゃいました。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>ウィジェットを日本語にしようとしてます。<br>]]>
-    
+    <![CDATA[<p>ウィジェットを日本語にしようとしてます。<br><a id="more"></a></p>
+<h2 id="ウィジェットのタイトルと日本語にしようとしたらハードコーディングだった件">ウィジェットのタイトルと日本語にしようとしたらハードコーディングだった件</h2><p>t]]>
     </summary>
     
       <category term="TEST" scheme="http://hexo.sumisada.com/tags/TEST/"/>
@@ -167,8 +174,8 @@
 <p>いやいや面倒くさいぞ！</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>トップのナビゲーション・メニュー（Home, Archives）を日本語にしたい。<br>]]>
-    
+    <![CDATA[<p>トップのナビゲーション・メニュー（Home, Archives）を日本語にしたい。<br><a id="more"></a></p>
+<h2 id="ハードコーディングだったり、_Config-yamlだったり面倒くさいぞ！">ハードコーディングだったり、_Config.y]]>
     </summary>
     
       <category term="TEST" scheme="http://hexo.sumisada.com/tags/TEST/"/>
@@ -191,8 +198,9 @@
 <p>テーマ変える都度変更するのは面倒くさい。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>“Read more”のままでもいいんですけど、「記事を読む」か「続きを読む」の方が良いので、<br>変更するのはtheme/_config.yamlを変更なのね。</p>]]>
-    
+    <![CDATA[<p>“Read more”のままでもいいんですけど、「記事を読む」か「続きを読む」の方が良いので、<br>変更するのはtheme/_config.yamlを変更なのね。</p>
+<a id="more"></a>
+<h2 id="“Read_more”_-&gt;_“記事を読む]]>
     </summary>
     
       <category term="TEST" scheme="http://hexo.sumisada.com/tags/TEST/"/>
@@ -310,8 +318,10 @@
 <p>えらーになるかも</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>これまでStackEditを使っていたので、マークダウンのパースをチェックしておきます。</p>]]>
-    
+    <![CDATA[<p>これまでStackEditを使っていたので、マークダウンのパースをチェックしておきます。</p>
+<a id="more"></a>
+<h2 id="テスト記事（その３）">テスト記事（その３）</h2><!-- toc -->
+<p>ページ分割の動作がわかりません。</p]]>
     </summary>
     
       <category term="TEST" scheme="http://hexo.sumisada.com/tags/TEST/"/>
