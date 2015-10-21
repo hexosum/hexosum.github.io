@@ -134,11 +134,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[ウィジェットのアーカイブでエラーが出る件]]></title>
+    <title><![CDATA[hexo ウィジェットのアーカイブでエラーが出る件]]></title>
     <link href="http://hexo.sumisada.com/2015/10/21/archive-error/"/>
     <id>http://hexo.sumisada.com/2015/10/21/archive-error/</id>
     <published>2015-10-21T07:00:30.000Z</published>
-    <updated>2015-10-21T07:14:59.711Z</updated>
+    <updated>2015-10-21T09:33:06.905Z</updated>
     <content type="html"><![CDATA[<p>HEXOのウィジェットを日本で表示するように変更すると、エラーが出るようになった件。</p>
 <a id="more"></a>
 <h2 id="site-posts-lengthが・・・">site.posts.lengthが・・・</h2><p>「10 2015年」と表示されるのは見た目に気に入らないため、date.formatを使って年月表示に変えたところ、<br>site.posts.lengthがそのまま表示されてしまいました。</p>

@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://hexo.sumisada.com/2015/10/21/archive-error/</loc>
+    <lastmod>2015-10-21T09:33:06.905Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hexo.sumisada.com/2015/10/21/recent-post-count/</loc>
     <lastmod>2015-10-21T09:30:09.595Z</lastmod>
   </url>
@@ -49,11 +54,6 @@
   <url>
     <loc>http://hexo.sumisada.com/2015/10/21/widget-language/</loc>
     <lastmod>2015-10-21T07:29:25.553Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hexo.sumisada.com/2015/10/21/archive-error/</loc>
-    <lastmod>2015-10-21T07:14:59.711Z</lastmod>
   </url>
   
   <url>
