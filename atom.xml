@@ -4,7 +4,7 @@
   <subtitle><![CDATA[hexo de blog]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://hexo.sumisada.com/"/>
-  <updated>2015-10-21T09:30:09.595Z</updated>
+  <updated>2015-10-21T09:37:06.335Z</updated>
   <id>http://hexo.sumisada.com/</id>
   
   <author>
@@ -15,11 +15,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[hexo 最新記事の数を変えたい]]></title>
+    <title><![CDATA[hexo, 最新記事の数を変えたい]]></title>
     <link href="http://hexo.sumisada.com/2015/10/21/recent-post-count/"/>
     <id>http://hexo.sumisada.com/2015/10/21/recent-post-count/</id>
     <published>2015-10-21T09:26:13.000Z</published>
-    <updated>2015-10-21T09:30:09.595Z</updated>
+    <updated>2015-10-21T09:37:06.335Z</updated>
     <content type="html"><![CDATA[<p>最新記事の表示数をもう少し増やしたいと思ったのです。</p>
 <a id="more"></a>
 <h2 id="ハードコーディングでした">ハードコーディングでした</h2><h5 id="recent_posts-ejs(before)">recent_posts.ejs(before)</h5><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;% site.posts.sort(<span class="string">'date'</span>, -<span class="number">1</span>).limit(<span class="number">5</span>).<span class="keyword">each</span>(<span class="function"><span class="keyword">function</span><span class="params">(post)</span></span>&#123; %&gt;</span><br></pre></td></tr></table></figure>
@@ -42,11 +42,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[front matter excerptのテスト]]></title>
+    <title><![CDATA[【hexo】front matter excerptのテスト]]></title>
     <link href="http://hexo.sumisada.com/2015/10/21/excrpt/"/>
     <id>http://hexo.sumisada.com/2015/10/21/excrpt/</id>
     <published>2015-10-21T08:20:17.000Z</published>
-    <updated>2015-10-21T08:28:43.133Z</updated>
+    <updated>2015-10-21T09:36:45.743Z</updated>
     <content type="html"><![CDATA[<p>ここになにかないとmoreが効かないのはなぜ？<br><a id="more"></a></p>
 <h2 id="はじめに">はじめに</h2><p>moreを使うとクリックすると表示位置が移動するのが気に入らないので、<br>front matter excrptをテストしてみます。</p>
 <h3 id="moreが消えてしまってだめじゃん">moreが消えてしまってだめじゃん</h3><p>moreをけしてくれるんで、indexに全部表示されちゃうぞ。</p>
@@ -64,11 +64,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[まだテストとチェックと下準備中・・・]]></title>
+    <title><![CDATA[hexo, まだテストとチェックと下準備中・・・]]></title>
     <link href="http://hexo.sumisada.com/2015/10/21/stilltesting/"/>
     <id>http://hexo.sumisada.com/2015/10/21/stilltesting/</id>
     <published>2015-10-21T07:57:16.000Z</published>
-    <updated>2015-10-21T08:03:09.371Z</updated>
+    <updated>2015-10-21T09:37:22.983Z</updated>
     <content type="html"><![CDATA[<p>ようやく枠がそれっぽくなってきた。<br><a id="more"></a></p>
 <h3 id="以外と手が書かる">以外と手が書かる</h3><p>WordPressなら、数時間あればブログの形になるんですけどねぇ。</p>
 <p>Octopressは半日あればなんとかなったんですけどねぇ。。</p>
@@ -91,11 +91,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[moreが効かない・・・]]></title>
+    <title><![CDATA[hexo, moreが効かない・・・]]></title>
     <link href="http://hexo.sumisada.com/2015/10/21/moremore/"/>
     <id>http://hexo.sumisada.com/2015/10/21/moremore/</id>
     <published>2015-10-21T07:53:32.000Z</published>
-    <updated>2015-10-21T07:56:17.064Z</updated>
+    <updated>2015-10-21T09:36:56.959Z</updated>
     <content type="html"><![CDATA[<p>&lt;– more –&gt;を—の直後にいれてみた。<br><a id="more"></a></p>
 <h2 id="出たり・出なかったりってどういうことよ？">出たり・出なかったりってどういうことよ？</h2><p>—の直後の行だとダメっぽい？？？</p>
 ]]></content>
@@ -111,11 +111,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[hexo new postじゃなくってpageでつくったら、ディレクトリだけできて困った]]></title>
+    <title><![CDATA[hexo, new postじゃなくってpageでつくったら、ディレクトリだけできて困った]]></title>
     <link href="http://hexo.sumisada.com/2015/10/21/static-pages/"/>
     <id>http://hexo.sumisada.com/2015/10/21/static-pages/</id>
     <published>2015-10-21T07:48:37.000Z</published>
-    <updated>2015-10-21T07:52:11.673Z</updated>
+    <updated>2015-10-21T09:37:18.287Z</updated>
     <content type="html"><![CDATA[<p>固定ページを作りたかったんですけど、hexo new page xxxxでつくったら</p>
 <a id="more"></a>
 <h2 id="固定ページを作ると自動でどこかに表示するのかと思った">固定ページを作ると自動でどこかに表示するのかと思った</h2><p>全然でてこなくて驚いた。</p>
@@ -134,11 +134,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[hexo ウィジェットのアーカイブでエラーが出る件]]></title>
+    <title><![CDATA[【HEXO】ウィジェットのアーカイブでエラーが出る件]]></title>
     <link href="http://hexo.sumisada.com/2015/10/21/archive-error/"/>
     <id>http://hexo.sumisada.com/2015/10/21/archive-error/</id>
     <published>2015-10-21T07:00:30.000Z</published>
-    <updated>2015-10-21T09:33:06.905Z</updated>
+    <updated>2015-10-21T09:36:04.607Z</updated>
     <content type="html"><![CDATA[<p>HEXOのウィジェットを日本で表示するように変更すると、エラーが出るようになった件。</p>
 <a id="more"></a>
 <h2 id="site-posts-lengthが・・・">site.posts.lengthが・・・</h2><p>「10 2015年」と表示されるのは見た目に気に入らないため、date.formatを使って年月表示に変えたところ、<br>site.posts.lengthがそのまま表示されてしまいました。</p>
@@ -157,11 +157,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[Share/Commentsもハードコーディング]]></title>
+    <title><![CDATA[hexo, Share/Commentsもハードコーディング]]></title>
     <link href="http://hexo.sumisada.com/2015/10/21/share-comments/"/>
     <id>http://hexo.sumisada.com/2015/10/21/share-comments/</id>
     <published>2015-10-21T04:20:01.000Z</published>
-    <updated>2015-10-21T07:45:30.165Z</updated>
+    <updated>2015-10-21T09:37:10.919Z</updated>
     <content type="html"><![CDATA[<p>index.htmlの下に表示されるCommentsとShareを日本語にしようと・・・・</p>
 <a id="more"></a>
 <p>ハードコーディングでやんの・・・<br><!-- more --></p>
@@ -183,11 +183,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[ウィジェットの日本語表示]]></title>
+    <title><![CDATA[hexo, ウィジェットの日本語表示]]></title>
     <link href="http://hexo.sumisada.com/2015/10/21/widget-language/"/>
     <id>http://hexo.sumisada.com/2015/10/21/widget-language/</id>
     <published>2015-10-21T02:24:54.000Z</published>
-    <updated>2015-10-21T07:29:25.553Z</updated>
+    <updated>2015-10-21T09:37:31.935Z</updated>
     <content type="html"><![CDATA[<p>ウィジェットを日本語にしようとしてます。<br><a id="more"></a></p>
 <h2 id="ウィジェットのタイトルと日本語にしようとしたらハードコーディングだった件">ウィジェットのタイトルと日本語にしようとしたらハードコーディングだった件</h2><p>theme/_comfig.yamlあたりを変更すると日本語にできるのかなと思っていましたが、<br>ハードコーディングでした。</p>
 <p>書き換えは面倒くさい。。。</p>
@@ -205,11 +205,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[トップのナビゲーション・メニュー]]></title>
+    <title><![CDATA[hexo, トップのナビゲーション・メニュー]]></title>
     <link href="http://hexo.sumisada.com/2015/10/21/title-menu/"/>
     <id>http://hexo.sumisada.com/2015/10/21/title-menu/</id>
     <published>2015-10-21T02:24:18.000Z</published>
-    <updated>2015-10-21T07:33:37.476Z</updated>
+    <updated>2015-10-21T09:37:27.743Z</updated>
     <content type="html"><![CDATA[<p>トップのナビゲーション・メニュー（Home, Archives）を日本語にしたい。<br><a id="more"></a></p>
 <h2 id="ハードコーディングだったり、_Config-yamlだったり面倒くさいぞ！">ハードコーディングだったり、_Config.yamlだったり面倒くさいぞ！</h2><p>トップメニューは、theme/_config.yamlで変更するんですって・・・</p>
 <h5 id="theme/_config-yaml">theme/_config.yaml</h5><p>ここを変更するのかぁ・・・<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">menu</span>:</span><br><span class="line">  ホーム: /</span><br><span class="line">  アーカイブ: /archives</span><br></pre></td></tr></table></figure></p>
@@ -227,11 +227,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[Read moreはtheme/config.yamlで変更するってよ]]></title>
+    <title><![CDATA[hexo, Read moreはtheme/config.yamlで変更するってよ]]></title>
     <link href="http://hexo.sumisada.com/2015/10/19/readmore/"/>
     <id>http://hexo.sumisada.com/2015/10/19/readmore/</id>
     <published>2015-10-19T02:20:01.000Z</published>
-    <updated>2015-10-21T07:38:32.748Z</updated>
+    <updated>2015-10-21T09:37:01.111Z</updated>
     <content type="html"><![CDATA[<p>“Read more”のままでもいいんですけど、「記事を読む」か「続きを読む」の方が良いので、<br>変更するのはtheme/_config.yamlを変更なのね。</p>
 <a id="more"></a>
 <h2 id="“Read_more”_-&gt;_“記事を読む”にする">“Read more” -&gt; “記事を読む”にする</h2><p>なんで、テーマで設定するんだよぉ。</p>
@@ -277,11 +277,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[テスト記事：マークダウンのテスト]]></title>
+    <title><![CDATA[hexo, テスト記事：マークダウンのテスト]]></title>
     <link href="http://hexo.sumisada.com/2015/10/18/makdown-test/"/>
     <id>http://hexo.sumisada.com/2015/10/18/makdown-test/</id>
     <published>2015-10-18T02:22:31.000Z</published>
-    <updated>2015-10-21T07:39:51.409Z</updated>
+    <updated>2015-10-21T09:36:52.807Z</updated>
     <content type="html"><![CDATA[<p>これまでStackEditを使っていたので、マークダウンのパースをチェックしておきます。</p>
 <a id="more"></a>
 <h2 id="テスト記事（その３）">テスト記事（その３）</h2><!-- toc -->
