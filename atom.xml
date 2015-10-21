@@ -4,7 +4,7 @@
   <subtitle><![CDATA[hexo de blog]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://hexo.sumisada.com/"/>
-  <updated>2015-10-21T08:28:43.133Z</updated>
+  <updated>2015-10-21T09:30:09.595Z</updated>
   <id>http://hexo.sumisada.com/</id>
   
   <author>
@@ -13,6 +13,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[hexo 最新記事の数を変えたい]]></title>
+    <link href="http://hexo.sumisada.com/2015/10/21/recent-post-count/"/>
+    <id>http://hexo.sumisada.com/2015/10/21/recent-post-count/</id>
+    <published>2015-10-21T09:26:13.000Z</published>
+    <updated>2015-10-21T09:30:09.595Z</updated>
+    <content type="html"><![CDATA[<p>最新記事の表示数をもう少し増やしたいと思ったのです。</p>
+<a id="more"></a>
+<h2 id="ハードコーディングでした">ハードコーディングでした</h2><h5 id="recent_posts-ejs(before)">recent_posts.ejs(before)</h5><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;% site.posts.sort(<span class="string">'date'</span>, -<span class="number">1</span>).limit(<span class="number">5</span>).<span class="keyword">each</span>(<span class="function"><span class="keyword">function</span><span class="params">(post)</span></span>&#123; %&gt;</span><br></pre></td></tr></table></figure>
+<p>これですと使いにくいので、theme/_config.ymlで修正できるようにキーワードを使いました。</p>
+<h5 id="recent_posts-ejs(before)-1">recent_posts.ejs(before)</h5><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;% site.posts.sort(<span class="string">'date'</span>, -<span class="number">1</span>).limit(theme.show_count).<span class="keyword">each</span>(<span class="function"><span class="keyword">function</span><span class="params">(post)</span></span>&#123; %&gt;</span><br></pre></td></tr></table></figure>
+<p>これで、theme/_config.ymlにshow_countで指定できます：<br><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor"># archive</span></span><br><span class="line"><span class="label">show_count:</span> <span class="number">10</span></span><br></pre></td></tr></table></figure></p>
+<p>これで10記事表示するようになりました。</p>
+<p>めでたしめでたし。</p>
+<p>メインテナンスは自前になっちゃいます・・・困った困った。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最新記事の表示数をもう少し増やしたいと思ったのです。</p>]]>
+    
+    </summary>
+    
+      <category term="TEST" scheme="http://hexo.sumisada.com/tags/TEST/"/>
+    
+      <category term="HEXO" scheme="http://hexo.sumisada.com/categories/HEXO/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[front matter excerptのテスト]]></title>

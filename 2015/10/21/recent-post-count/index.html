@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Category: HEXO | SUMIT実験室</title>
+  <title>hexo 最新記事の数を変えたい | SUMIT実験室</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="SUMIT実験室">
-<meta property="og:url" content="http://hexo.sumisada.com/categories/HEXO/index.html">
+  <meta name="description" content="最新記事の表示数をもう少し増やしたいと思ったのです。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo 最新記事の数を変えたい">
+<meta property="og:url" content="http://hexo.sumisada.com/2015/10/21/recent-post-count/index.html">
 <meta property="og:site_name" content="SUMIT実験室">
-<meta property="og:description">
+<meta property="og:description" content="最新記事の表示数をもう少し増やしたいと思ったのです。">
+<meta property="og:updated_time" content="2015-10-21T09:30:09.595Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SUMIT実験室">
-<meta name="twitter:description">
+<meta name="twitter:title" content="hexo 最新記事の数を変えたい">
+<meta name="twitter:description" content="最新記事の表示数をもう少し増やしたいと思ったのです。">
   
     <link rel="alternative" href="/atom.xml" title="SUMIT実験室" type="application/atom+xml">
   
@@ -64,210 +65,75 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2015" class="archive-year">2015</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2015/10/21/recent-post-count/" class="archive-article-date">
+        <section id="main"><article id="post-recent-post-count" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/10/21/recent-post-count/" class="article-date">
   <time datetime="2015-10-21T09:26:13.000Z" itemprop="datePublished">2015年10月21日</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/HEXO/">HEXO</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/10/21/recent-post-count/">hexo 最新記事の数を変えたい</a>
+    <h1 class="article-title" itemprop="name">
+      hexo 最新記事の数を変えたい
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2015/10/21/excrpt/" class="archive-article-date">
-  <time datetime="2015-10-21T08:20:17.000Z" itemprop="datePublished">2015年10月21日</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/10/21/excrpt/">front matter excerptのテスト</a>
-    </h1>
-  
+        <p>最新記事の表示数をもう少し増やしたいと思ったのです。</p>
+<a id="more"></a>
+<h2 id="ハードコーディングでした">ハードコーディングでした</h2><h5 id="recent_posts-ejs(before)">recent_posts.ejs(before)</h5><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;% site.posts.sort(<span class="string">'date'</span>, -<span class="number">1</span>).limit(<span class="number">5</span>).<span class="keyword">each</span>(<span class="function"><span class="keyword">function</span><span class="params">(post)</span></span>&#123; %&gt;</span><br></pre></td></tr></table></figure>
+<p>これですと使いにくいので、theme/_config.ymlで修正できるようにキーワードを使いました。</p>
+<h5 id="recent_posts-ejs(before)-1">recent_posts.ejs(before)</h5><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;% site.posts.sort(<span class="string">'date'</span>, -<span class="number">1</span>).limit(theme.show_count).<span class="keyword">each</span>(<span class="function"><span class="keyword">function</span><span class="params">(post)</span></span>&#123; %&gt;</span><br></pre></td></tr></table></figure>
+<p>これで、theme/_config.ymlにshow_countで指定できます：<br><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor"># archive</span></span><br><span class="line"><span class="label">show_count:</span> <span class="number">10</span></span><br></pre></td></tr></table></figure></p>
+<p>これで10記事表示するようになりました。</p>
+<p>めでたしめでたし。</p>
+<p>メインテナンスは自前になっちゃいます・・・困った困った。</p>
 
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2015/10/21/stilltesting/" class="archive-article-date">
-  <time datetime="2015-10-21T07:57:16.000Z" itemprop="datePublished">2015年10月21日</time>
-</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/10/21/stilltesting/">まだテストとチェックと下準備中・・・</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2015/10/21/moremore/" class="archive-article-date">
-  <time datetime="2015-10-21T07:53:32.000Z" itemprop="datePublished">2015年10月21日</time>
-</a>
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://hexo.sumisada.com/2015/10/21/recent-post-count/" data-id="cig0ln0rh000iw2d2g5vs5j6z" class="article-share-link">シェア</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/10/21/moremore/">moreが効かない・・・</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2015/10/21/static-pages/" class="archive-article-date">
-  <time datetime="2015-10-21T07:48:37.000Z" itemprop="datePublished">2015年10月21日</time>
-</a>
+        <a href="http://hexo.sumisada.com/2015/10/21/recent-post-count/#disqus_thread" class="article-comment-link">コメント</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/10/21/static-pages/">hexo new postじゃなくってpageでつくったら、ディレクトリだけできて困った</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2015/10/21/archive-error/" class="archive-article-date">
-  <time datetime="2015-10-21T07:00:30.000Z" itemprop="datePublished">2015年10月21日</time>
-</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/10/21/archive-error/">ウィジェットのアーカイブでエラーが出る件</a>
-    </h1>
-  
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TEST/">TEST</a></li></ul>
 
-    </header>
+    </footer>
   </div>
-</article>
   
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2015/10/21/share-comments/" class="archive-article-date">
-  <time datetime="2015-10-21T04:20:01.000Z" itemprop="datePublished">2015年10月21日</time>
-</a>
-      
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/10/21/share-comments/">Share/Commentsもハードコーディング</a>
-    </h1>
   
+    <a href="/2015/10/21/excrpt/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前の記事</strong>
+      <div class="article-nav-title">front matter excerptのテスト</div>
+    </a>
+  
+</nav>
 
-    </header>
-  </div>
+  
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2015/10/21/widget-language/" class="archive-article-date">
-  <time datetime="2015-10-21T02:24:54.000Z" itemprop="datePublished">2015年10月21日</time>
-</a>
-      
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/10/21/widget-language/">ウィジェットの日本語表示</a>
-    </h1>
-  
 
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2015/10/21/title-menu/" class="archive-article-date">
-  <time datetime="2015-10-21T02:24:18.000Z" itemprop="datePublished">2015年10月21日</time>
-</a>
-      
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/10/21/title-menu/">トップのナビゲーション・メニュー</a>
-    </h1>
-  
 
-    </header>
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2015/10/19/readmore/" class="archive-article-date">
-  <time datetime="2015-10-19T02:20:01.000Z" itemprop="datePublished">2015年10月19日</time>
-</a>
-      
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/10/19/readmore/">Read moreはtheme/config.yamlで変更するってよ</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
+</section>
 </section>
         
           <aside id="sidebar">
@@ -382,11 +248,13 @@
 <script>
   var disqus_shortname = 'hexosum';
   
+  var disqus_url = 'http://hexo.sumisada.com/2015/10/21/recent-post-count/';
+  
   (function(){
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
 </script>
