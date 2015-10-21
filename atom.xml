@@ -4,7 +4,7 @@
   <subtitle><![CDATA[hexo de blog]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://hexo.sumisada.com/"/>
-  <updated>2015-10-21T08:03:09.371Z</updated>
+  <updated>2015-10-21T08:22:51.334Z</updated>
   <id>http://hexo.sumisada.com/</id>
   
   <author>
@@ -13,6 +13,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[front matter excerptのテスト]]></title>
+    <link href="http://hexo.sumisada.com/2015/10/21/excrpt/"/>
+    <id>http://hexo.sumisada.com/2015/10/21/excrpt/</id>
+    <published>2015-10-21T08:20:17.000Z</published>
+    <updated>2015-10-21T08:22:51.334Z</updated>
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="はじめに">はじめに</h2><p>moreを使うとクリックすると表示位置が移動するのが気に入らないので、<br>front matter excrptをテストしてみます。</p>
+<h3 id="more問題">more問題</h3><p>moreを入れる場所によって動作したりしなかったりする。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<a id="more"></a>
+<h2 id="はじめに">はじめに</h2><p>moreを使うとクリックすると表示位置が移動するのが気に入らないので、<br>front matter excrptをテストしてみます。</p>
+<h3 id="more問題">more問題<]]>
+    </summary>
+    
+      <category term="TEST" scheme="http://hexo.sumisada.com/tags/TEST/"/>
+    
+      <category term="HEXO" scheme="http://hexo.sumisada.com/categories/HEXO/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[まだテストとチェックと下準備中・・・]]></title>
